@@ -1,0 +1,70 @@
+h1, h2, h3, h4, h5, h6 {
+  color: rebeccapurple;
+  font-family: sans-serif;
+}
+
+#scoreBoard {
+  border-color: black;
+  border-width: medium;
+  border-style: ridge;
+}
+thead{
+  font-weight: bold;
+  background-color: black;
+  color: chartreuse;
+}
+#scoreBoard{
+  position: relative;
+  margin: auto;
+}
+td {
+  text-align: center;
+}
+tbody tr:nth-child(odd){
+  background-color: grey;
+}
+tbody tr:nth-child(even){
+  background-color: blue;
+}
+li{
+  color: black;
+  list-style: square;
+
+}
+#teamRoster li li li:first-child {
+  font-weight: bold;
+  font-size: 120%;
+}
+#checkbox-grid li{
+  color: black;
+  list-style: none;
+}
+a:hover{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+blockquote{
+  background-color: black;
+  color: chartreuse;
+}
+blockquote:hover{
+  background-color: white;
+  color: black;
+}
+img{
+  display: none;
+}
+#teamRoster li:first-child ul{
+  background: linear-gradient(rgba(255, 255, 255, 2), rgba(255, 255, 255, 0.1)), url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg) no-repeat;
+  height: 240px;
+  width: 320px;
+
+}
+#teamRoster li:last-child ul{
+  background:  linear-gradient(rgba(255, 255, 255, 2), rgba(255, 255, 255, 0.1)),url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg) no-repeat;
+  height: 240px;
+  width: 320px;
+  filter: opacity(50%);
+}
